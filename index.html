@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta: og -->
+  <meta name="image" property="og:image" content="https://verma-rishu.github.io/assets/images/rishu-logo.png">
+  <meta name="author" content="Rishu Verma">
+  <meta property="og:type" content="Portfolio Website">
+  <meta property="og:title" content="Rishu Verma - Portfolio" />
+  <meta property="og:url" content="https://verma-rishu.github.io/" />
+  <meta property="og:description" content="Portfolio of Rishu Verma (Software Engineer). Masters Student at Penn State University - University Park." />  
+  <title>Rishu Verma - Portfolio</title>
+
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="https://github.com/verma-rishu/verma-rishu.github.io/blob/main/assets/images/rishu-logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/rv-avatar.png" alt="Rishu Verma" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Rishu Verma">Rishu Verma <small style="font-size:small;">(she/her)</small></h1>
+          <p class="title">Software Engineer <br/> (Open to work from: <b>May 2024</b>)</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:verma.rishu@outlook.com" class="contact-link">verma.rishu@outlook.com</a>
+            </div>
+
+          </li>
+
+          
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>University Park, Pennsylvania, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://drive.google.com/file/d/1Xh-ulSnV_slVMHM9F3t-cMgWOBxm87pQ/view?usp=sharing" class="title">
+              Resume
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/verma-rishu/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/verma-rishu/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://medium.com/@verma-rishu" class="social-link">
+              <ion-icon name="logo-medium"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://twitter.com/verma_rishu_" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text" style="text-align: justify; text-justify: inter-word;">
+          <p>
+            I am a Software Engineer currently pursuing a Master's degree in Computer Science at Penn State
+            University, USA. My journey in technology revolves around solving intricate problems 
+            by breaking them down into intuitive sub-problems that lead to elegant software solutions.
+          </p>
+          <p>
+            Currently, I serve as a teaching assistant, imparting knowledge to budding programmers and introducing them to the 
+            world of functional programming. My professional background spans data engineering, data reporting, backend and 
+            frontend development, and process automation for efficiency. One thrilling chapter in my career saw me as an 
+            on-call hero, entrusted with safeguarding million-dollar transactions - a responsibility I embraced with enthusiasm.
+          </p>
+          <p>
+            I'm deeply committed to knowledge-sharing, mentorship and active learning. I've conducted knowledge exchange sessions for audiences of 300+ individuals, 
+            guided interns, and debugging cirtical codebases. My peers often highlight my strong sense of ownership and commitment to doing what's right.
+          </p>
+          <p>
+          Beyond technology, I hold a profound vision - one where humanity's bond and trust are fortified. My mission is to utilize my skills to unravel the complexities of our world, 
+          simplifying it and making it a better place for everyone. As you read this, I'm on a quest to turn this vision into reality, one ingenious solution at a time :D
+            </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research</h4>
+
+                <p class="service-item-text">
+                  Working with <a style="color: white; display: inline;" href="https://www.wenpengyin.org/home">Dr. Wenpeng Yin</a> for enabling Large Language Models for elementary education.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Master of Science" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Masters of Science (MS)</h4>
+
+                <p class="service-item-text">
+                  Currently pursuing Masters of Science at Pennsylvania State University - University Park.
+                  Majoring in Computer Science and Engineering.
+                </p>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+        <!--
+          - Recommendations
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Recommendations</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Nikhil Khemka" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nikhil Khemka</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I would like to recognize Rishu for all her efforts & contribution she had put in towards her work during her tenure in our team, we are really fortunate to have her as our colleague as she displayed multiple characteristics of her ultra high professionalism irrespective of the tasks assigned to her. She can complete any tasks given to her within the given deadline by going above and beyond the boundaries of knowledge she beholds. She constantly thrives to learn and improve herself to make things better for her work and her colleagues for a safer and friendly work environment. She also possess nature to raise her voice against the odds and speaks up during times where situation demands the same from her.
+Rishu is a true example of good human being and a great friend with a future possibility of being a good leader as well.
+All The Best for your future !! 
+                    <br/><br/>
+                    <i>- Nikhil Khemka (Consultant Specialalist @HSBC)</i>
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Asante Bremang" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Asante Bremang</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    As a new member of the team Rishu has quickly adapted and settled in.
+I have been very impressed with the quality of her work and her ability to work with limited or ambiguous requirements. 
+She is a valued member of the team.
+<br/><br/>
+<i>- Asante Bremang (Business Analyst @HSBC-Geneva)</i>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Ankit Kumar" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ankit Kumar</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Rishu is a brilliant developer and posseses a great in depth knowledge of the coding world. 
+                    She has been proactive in taking up new challenges and has a good analytical understanding.
+                    <i>- Ankit Kumar (Senior Consultant Specialalist @HSBC)</i>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Jayesh Chaudhari" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jayesh Chaudhari</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I was mentored by Rishu for the Avaloq and EWS team, HSBC. She is an amazing mentor and always 
+                    ready to help out and learn some new things. She is knowledgeable in multiple aspects of computer
+                    science and is brilliant leader who supports and helps throughout.
+                    <br/><br/> 
+                    <i>- Jayesh Chaudhari (Software Engineer @HSBC)</i>
+                    
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Suraj Prathik Kumar" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Suraj Prathik Kumar</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    A good mentor with a lot of experience in Spring and avaloq related technologies.
+                    <br/><br/> 
+                    <i>- Suraj Prathik Kumar (Software Engineer @HSBC)</i>
+                  </p>
+                </div>
+               
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Shubham Negi" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Shubham Negi</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I know Rishu as a hard-working and very serious team player. 
+                    Rishu is a great networker, and certainly can get my full recommendation.
+                    <br/><br/> 
+                    <i>- Shubham Negi (Back End Intern @Clicklabs)</i>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+
+     
+        <!--
+          - testimonials modal
+        -->
+   
+        <!-- <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2022-07-13"></time>
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> -->
+
+ <!--
+          - Recognitions
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Recognitions</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo-7-color.png" alt="HSBC" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>HSBC - Global Private Banking</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <h5 class="testimonials-text-bold">Top Contributor and Strong Behaviour</h5>
+                  <p>
+                    Got a perfect employeee review in 2021 followed by promotion to Senior Software Engineers.
+                    The review implies exceptional performace throughout the year based on the project one 
+                    worked on as well as other factors on how an individual deal with other member in the organization.
+                    Only top 0.1% of the employeees score this rating based on their performace compared to others at the same hierarchy
+                    and a level-up hierarchy.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Head of HSBC Technology, India" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>B. Ganesh, Head of HSBC Technology, India</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <h5 class="testimonials-text-bold">Get best results in right way</h5>
+                  <p>
+                    Rishu joined GPB-Core Banking as graduate in 2019. Within short span of time, she has developed 
+                    her-self into multi-skill resource knowing complex tech like AVALOQ, JAVA, CTRL-M and other 
+                    supporting technologies required in Core Banking Platform. She is also standout contributor 
+                    in Advisory programme for UK and Channel Island roll-out and is well appreciated by business 
+                    and stake-holders.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo-7-color.png" alt="HSBC - Global Private Banking" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>HSBC - Global Private Banking</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <h5 class="testimonials-text-bold">Pat on the back</h5>
+                  <p>
+                    Awarded "Pat on the Back" award for commendable performance in multiple technology stack, 
+                    enhancing (as part of maintenance activity) more than 74 control-M tables which in turn 
+                    optimized the EOD batch by reducing recurring failures and helping meet client SLA.
+                    Awarded "Pat on the Back" award for commendable performance in multiple technology stack, enhancing (as part of maintenance activity) 
+                    more than 74 control-M tables which in turn optimized the EOD batch by reducing recurring 
+                    failures and helping meet client SLA.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo-7-color.png" alt="HSBC - Global Private Banking" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>HSBC - Global Private Banking</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <h5 class="testimonials-text-bold">Star Performance</h5>
+                  <p>
+                    Individual award as "Star Performaner of the month" is awarded to the employeee who has been the 
+                    top performer of that quarter. The award is given after nominations and panel discussed, 
+                    where the experienced panelists filters the nominations based various criterias in the list.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Shamaila Daulatabad" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Shamaila Daulatabad</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <h5 class="testimonials-text-bold">Take Ownership</h5>
+                  <p>
+                    Rishu has been a recent addition to the team, her fast learning skills, taking ownership 
+                    of tasks and delivering them well has been really good. Thank you for being a good 
+                    colleague and friend ! 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Laurent Tavenet" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Laurent Tavenet</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <h5 class="testimonials-text-bold">Take Ownership</h5>
+                  <p>
+                    Rishu demonstrated a can-do attitude and lifted her performance after listening to our team's 
+                    feedback regarding the CRs and requests raised . By doing so , it helped us to perform the requests 
+                    more efficiently and create a harmony between her team and ours . Rishu also demonstrated maturity 
+                    and is a good listener , I wish her all the best in her career and I definitely  believe she represent the best HSBC asks for when we look to hire people. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Ved Prakash" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ved Prakash</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <h5 class="testimonials-text-bold">Taking Ownership</h5>
+                  <p>
+                    Thank you very much Rishu for all your support for Advisory CI & UK roll-in project. Within a short span 
+                    of time you took ownership of the interface and performing really well. Being a new joiner you learned 
+                    technologies really quickly and now an important pillar in Services POD. It has been well appreciated by 
+                    stakeholders. Also the way you helped team with packaging and PROD installation 
+                    during this period on multiple instances it is really appreciated. Keep doing the great work. Thanks. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Saurabh A Kunnawar" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Saurabh A Kunnawar</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <h5 class="testimonials-text-bold">Taking Ownership</h5>
+                  <p>
+                    Hello Rishu, Thanks for all the work and support. You have taken ownership of tasks end-to-end and always try an find process improvement, 
+                    by taking suggestions from all the teams involved.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Asante Bremang" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Asante Bremang</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <h5 class="testimonials-text-bold">Taking Ownership</h5>
+                  <p>
+                    As a new member of the team Rishu has settled in and has taken to the challenge of Avaloq 
+                    development. I have been very impressed with the quality of her work especially when 
+                    requirements are not always clear or fixed. Keep it up!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Ved Prakash" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ved Prakash</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <h5 class="testimonials-text-bold">Builds trusted Relationship</h5>
+                  <p>
+                    I would like to take the opportunity to thank you for all the work done so far this year. 
+                    You were quick learner and delivered at your best in project and also participated in group events. 
+                    Keep it up good work and Wish you all the best for 2020.  Thanks.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2022-07-13"></time>
+
+              <div data-modal-text>
+                <p>
+                 
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Employers</h3>
+
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-9-color.png" alt="Penn State logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-7-color.png" alt="HSBC logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-8-color.png" alt="Clicklabs logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="experience">
+
+        <section class="timeline">
+
+          <header>
+            <h2 class="h2 article-title">Experience</h2>
+          </header>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <a href="https://www.wenpengyin.org/languagex-lab">
+                <h4 class="h4 timeline-item-title" id="exp-title">Researcher - Language X Lab - Penn State University</h4>
+              </a>
+
+              <span> May'23 — ongoing</span>
+
+              <ul class="timeline-text">
+                  <li>Facilitate the use of <b>Large Language Models (LLMs)</b> for elementary maths.
+                    This ongoing project involves converting textual math into visual materials (images/
+                    videos) to enhance children’s understanding of procedural steps and foster
+                    cognitive development.</li>
+                </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <a href="https://www.eecs.psu.edu/">
+                <h4 class="h4 timeline-item-title" id="exp-title">Teaching Assistant - Penn State University</h4>
+              </a>
+
+              <span>(Part-time) | Aug'22 — ongoing</span>
+
+              <ul class="timeline-text">
+                  <li>Assisted Dr. Suman Saha & Dr. Mahfuza Farooque in delivering
+                    the curriculum to 350+ undergraduate and graduate students. Provided individualized attention and assistance to students
+                    during office hours, clarified student's doubts on the active class forum, graded & designed exams, homework & programming
+                    assignments based on concepts from multiple programming languages (C, C++, Racket, Python, Java).</li>
+                </ul>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <a href="https://www.hsbc.com/careers/our-business-areas-and-teams/digital-business-services/careers-in-technology">
+                <h4 class="h4 timeline-item-title" id="exp-title">Senior Software Engineer - HSBC</h4>
+              </a>
+
+              <span>July'19 - Feb'22 (SE) | March'22 — July'22 (SSE)</span>
+
+              <ul class="timeline-text">
+                  <li>Developed a Token Web Service to bolster authentication security and slashing
+                    response time for requests from <b>180 seconds to 4 seconds</b>.</li>
+                  <li> Effectively led a team of 2 engineers to bootstrap a client reporting platform with
+                    seamless adoption by <b>10,000</b> high-net-worth clients. </li>
+                  <li>Designed and oversaw a Spring Cloud API Gateway, benefiting <b>25+ global teams</b>
+                    and <b>250+ staff members</b>, enhancing accessibility and efficiency.</li>
+                  <li> Collaborated with the business to lead an automation and system optimization
+                    project that reduced SLA misses from <b>20/quarter/team</b> to <b>0/quarter/team</b>.</li>
+                </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <a href="https://clicklabs.co/">
+              <h4 class="h4 timeline-item-title" id="exp-title">Front-end Intern - Clicklabs</h4>
+            </a>
+
+              <span>Feb'19 - June'19</span>
+
+              <ul class="timeline-text">
+                <li>Made a web-based product to platform independent (iOS, Android, Web)
+                  product which led to <b>70% reduction</b> in engineering effort.</li>
+              </ul>
+
+            </li>
+            
+            <li class="timeline-item">
+
+              <a href="https://www.drdo.gov.in/labs-and-establishments/institute-systems-studies-analyses-issa">
+              <h4 class="h4 timeline-item-title" id="exp-title">Trainee - Institute for Systems Studies & Analyses (ISSA) Labs - DRDO </h4>
+              </a>
+              <span>May'18 - July'18</span>
+              <ul class="timeline-text">
+                <li>Programmed features for the Tactical Naval War Game (a simulation game), facilitating
+                  screenshot generation and data visualization during cadet training.</li>
+              </ul>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+        <!-- <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+      <article class="resume" data-page="education">
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <!-- <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div> -->
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <a href="https://www.psu.edu/"><h4 class="h4 timeline-item-title"  id="exp-title">Pennsylvania State University (PSU) - University Park</h4></a>
+
+              <span>2022 - Ongoing</span>
+
+              <p class="timeline-text">
+               Masters of Science - Computer Science & Engineering <br>
+               <small> GPA: <b>3.9</b> out of <b>4.0</b> 
+              </p>
+              <ul  class="timeline-text">
+                <li> Secured a scholarship under the Summer Tuition Assistance Program (STAP) 2023 for <b>$5,500</b>.</li>
+                <li> Working as a Teaching Assistant (x3) for Programming Language Concepts (Functional Programming) at the Department of Computer Science, Pennsylvania State University.</li>
+                <li> Working on Reseacher Assistant for data and feature engineering of language and vision mathematical dataset.</li>
+                <li> <b>Coursework:</b> Distributed Systems <small>(ongoing)</small>, Privacy Preserving Machine Learning Systems <small>(ongoing)</small>, Operating Systems, 
+                  Deep Learning, Natural Language Processing, Data Structures & Algorithms.</li>
+                <li> <b>Technical Skills:</b> C++, Python, PyTorch, NymPy, scikit-learn, jupyter notebook, Golang <small>(learning)</small>.</li>
+                <li> <b>Personal Skills:</b> Problem solving, Time Management, Prioritization, Persistence.</li>
+              </ul>
+            </li>
+          </small>
+
+            <li class="timeline-item">
+
+              <a href="https://www.juit.ac.in/"></a><h4 class="h4 timeline-item-title" id="exp-title">Jaypee University of Information Technology (JUIT)</h4></a>
+
+              <span>2015 - 2019</span>
+
+              <p class="timeline-text">
+                Bachelor of Technology  - Computer Science & Engineering <b>(Hons.)</b><br>
+                <small> GPA: <b>9.3</b> out of <b>10.0</b> 
+                </p>
+                <ul  class="timeline-text">
+                  <li> Secured <b>Bachelor's degree with Honors</b> - awarded to <b>top 1%</b> of the students in the batch.</li>
+                  <li> Secured <b>1st position</b> out of 70+ paticipants in JUIT-Smart City Hackathon.</li>
+                  <li> Secured <b>1st position</b> out of 50+ paticipants in JUIT-IEEE R&D Expo Hackathon.</li>
+                  <li> Served as a <b>Board Member</b> and <b>Creative Director</b> at <b>Rotaract Club of Waknaghat (RACW-3080)</b>, organizing numerous community events, including blood donation drives,
+                     'best out of waste' campaigns, government school maintenance initiatives, community tutoring (in arts, mathematics, programming, and financial awareness), and 
+                     multiple donation drives benefitting specially-abled students and cancer patients.</li>
+                  <li> Increased annual company participation (for career fair and campus recruitment) by 20% as <b>Student Coordinator at Training and Placement Cell</b>, JUIT.</li>
+                  <li> Conducted programming contests and hackathons as <b>Student Coordinator</b> & <b>Secretary</b> at <b>CSI (Computer Socity of India)</b> and <b>ACM (Association for Computing Machinery)</b> student chapeter JUIT respectively.</li>
+                  <li> Participated in various <b>national level technical Hackathons</b>, <b>technical workshops (IBM-Bluemix, Big Data Analytics using Hadoop)</b>, inter university MUN's (Model United Nations), Dance competitions, etc.</li>
+                  <li> <b>Coursework:</b> Database Systems, Airtificial Intelligence, Computer Architecture, Unix Tools and Scripting, Data Structures & Algorithms, Computer Networks,
+                    Theory of Computation, Object Oriented Analysis & Design, Compiler Design, Cloud Computing, Data Analytics, Business Analytics, Economics.</li>
+                  <li> <b>Technical Skills:</b> C++, C, Java, Web Technology (HTML, CSS, Bootstrap, Vanilla JavaScript), Embedded-C (Arduino), IoT devices (Arduino, IR Sensors, lidar, etc.).</li>
+                  <li> <b>Personal Skills:</b> Problem solving, Communication, Personality Development, Group Discussions, Financial Management.</li>
+                </ul>
+            </li>
+          </small>
+
+          </ol>
+
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Systems</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Front-end</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Research Reads</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Systems</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Front-end</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Research Reads</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/verma-rishu/Analysis_TNNs">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/analysis_TNN.png" alt="GNNs" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Analysis of Temporal Graph Neural Networks</h3>
+
+                <p class="project-category">Data Engineering & DL</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="systems">
+              <a href="https://github.com/verma-rishu/bookish-guacamole/blob/main/project_results/dma.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/dma.png" alt="Dynamic Memory Allocator" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dynamic Memory Allocator</h3>
+
+                <p class="project-category">Operating Systems</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="systems">
+              <a href="https://github.com/verma-rishu/bookish-guacamole/blob/main/project_results/os_channels.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/os_channels.png" alt="Channels for message passing" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Channels</h3>
+
+                <p class="project-category">Operating System-Concurrency</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/verma-rishu/Sentiment_Classification">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/lstm.png" alt="Sentiment Classification" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sentiment Classification</h3>
+
+                <p class="project-category">Natural Language Processing</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/verma-rishu/Text_Generation_Indic">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/indic.png" alt="Quote Generation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Quote Generation - Indic</h3>
+
+                <p class="project-category">Data Engineering & NLP</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="systems">
+              <a href="https://github.com/verma-rishu/CSE530ThermalDisspationGTX480">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/layer2.png" alt="Heat Dissipation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Heat Dissipation - GTX480</h3>
+
+                <p class="project-category">Computer Architecture</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/NLP-NGrams/Midterm-NGrams/blob/main/HMM%20Algorithm/conll200_HMM.ipynb">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/pos_tagging.png" alt="POS Tagging" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">POS Tagging</h3>
+
+                <p class="project-category">Hidden Markov Model - NLP</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="front-end">
+              <a href="https://github.com/verma-rishu/Hybrid-App">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="NativeScript" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hybrid-App</h3>
+
+                <p class="project-category">NativeScript Angular Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="front-end">
+              <a href="https://github.com/verma-rishu/Tour-of-Heroes">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/tour_of_heroes.png" alt="Tour-of-Heroes" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tour of Heroes</h3>
+
+                <p class="project-category">Front End Angular Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research reads">
+              <a href="https://github.com/verma-rishu/bookish-guacamole">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/mapreduce.jpg" alt="Paper Reading" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Interesting Reads</h3>
+
+                <p class="project-category">Various reseach projects</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <!-- <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section> -->
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
