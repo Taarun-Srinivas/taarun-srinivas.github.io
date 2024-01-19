@@ -587,19 +587,22 @@
               <span> Jan'23 — ongoing</span>
 
               <ul class="timeline-text">
-                <b> 3D reconstruction and Depth Estimation</b>
-                  <li>Created a realistic virtual environment in habitat sim (Embodied AI) platform using the Gibson dataset, hosted on HPC </li>
-                  <li>Simulated and coded an agent in python3 to navigate and capture images of scenes in the habitat sim environment</li>
-                <li>Achieved inverse perspective projection to get 3D world coordinates, with the captured 2D RGB and Depth images </li>
-                <li>Structured the 3D world coordinates as point clouds and visualized my point cloud data using numpy and open3D </li>
-                <li>Currently, working on achieving global point cloud registration, by accurately estimating the depth of point clouds
-                    and aligning the misaligned individual point cloud developed from 3D world coordinates</li>
-
-                <b> Deep Learning and Semantic Segmentation</b>
-                <li> Utilized STEGO, an unsupervised semantic segmentation algorithm, to generate semantic data for NYU CARLA dataset </li>
-                  <li>Optimized the data generation process using pytorch and openCV after rendering images using STEGO </li>
-                <li> Developed a python3 script to convert rendered images into videos by stacking all images into frames </li>
-                </ul>
+                <b>Long Baseline Spatial Reasoning </b>
+		      
+		<li>Troubleshooted point cloud misalignment challenges by conducting meticulous analysis of ground truth data,debugging
+		errors within the dataset generation pipeline </li>
+		<li>Implemented inverse perspective projection using corrected ground truths, leading to the achievement of accurate
+		3D visualization of indoor environments by automatically aligning individual point clouds </li>
+		Migrated the existing point cloud generation pipeline from open3d’s conventions to habitat-sim conventions
+		<li>Improved the accuracy of the existing dataset generation pipeline by calculating the Intersection-over-Union (IoU)
+		between two generated point clouds </li>
+		      
+		<b>Long-term Visual Place Recognition (VPR) </b>
+		      
+		<li>Utilized STEGO, an unsupervised semantic segmentation algorithm, to generate semantic data for NYU CARLA
+		dataset.</li>
+		<li> Optimized the data generation process using pytorch and openCV after rendering images using STEGO </li>
+	      </li>Developed a python3 script to convert rendered images into videos by stacking all images into frames </li>
           </li>
 
             <li class="timeline-item">
